@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concept-gcnv.html 
 keywords: google cloud netapp volumes, cost, price, features, google cloud netapp volumes features, gcnv, supported regions, google regions, google cloud netapp volumes regions 
-summary: 'Google Cloud NetApp Volumes permet aux entreprises de migrer et d"exécuter leurs applications critiques, gourmandes en performances et sensibles à la latence, dans Google sans avoir besoin de refactoriser pour le cloud.' 
+summary: 'Google Cloud NetApp Volumes permet aux entreprises de migrer et d"exécuter leurs applications critiques, gourmandes en performances et sensibles à la latence, dans Google sans avoir besoin de les refactoriser pour le cloud.' 
 ---
 = En savoir plus sur Google Cloud NetApp Volumes
 :hardbreaks:
@@ -16,7 +16,7 @@ summary: 'Google Cloud NetApp Volumes permet aux entreprises de migrer et d"exé
 [role="lead"]
 Google Cloud NetApp Volumes est un service de stockage de données entièrement géré et basé sur le cloud qui offre des capacités de gestion de données avancées et des performances hautement évolutives.
 
-NetApp Volumes permet d'accélérer les temps de déploiement, de gérer vos charges de travail et vos applications et de migrer les charges de travail vers le cloud tout en conservant les performances et les fonctionnalités du stockage sur site.
+NetApp Volumes permet d'accélérer les délais de déploiement, de gérer vos charges de travail et vos applications et de migrer les charges de travail vers le cloud tout en conservant les performances et les fonctionnalités du stockage sur site.
 
 
 
@@ -32,9 +32,9 @@ NetApp Volumes permet d'accélérer les temps de déploiement, de gérer vos cha
 
 == Coût
 
-Les volumes créés par Google Cloud NetApp Volumes sont facturés sur votre abonnement au service, et non via la console NetApp .
+Les volumes créés par Google Cloud NetApp Volumes sont facturés sur votre abonnement au service, et non via la NetApp Console.
 
-La découverte d'une région ou d'un volume Google Cloud NetApp Volumes à partir de la console NetApp est gratuite.
+La découverte d'une région ou d'un volume Google Cloud NetApp Volumes à partir de la NetApp Console est gratuite.
 
 
 
@@ -57,5 +57,5 @@ Pour les problèmes techniques associés à vos volumes cloud, vous pouvez crée
 == Liens connexes
 
 * https://cloud.google.com/netapp/volumes/docs/discover/overview["Documentation de Google Cloud NetApp Volumes"^]
-* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["Documentation sur la copie et la synchronisation de la console NetApp"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/index.html["Documentation sur la copie et la synchronisation de la NetApp Console"^]
 

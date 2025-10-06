@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
 keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
-summary: 'La console NetApp doit avoir accès à l"API Google Cloud NetApp Volumes et aux autorisations appropriées via un compte de service Google Cloud.' 
+summary: 'La NetApp Console doit avoir accès à l"API Google Cloud NetApp Volumes et aux autorisations appropriées via un compte de service Google Cloud.' 
 ---
 = Configurer les Google Cloud NetApp Volumes
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: 'La console NetApp doit avoir accès à l"API Google Cloud NetApp Volum
 
 
 [role="lead"]
-La console NetApp a besoin des autorisations appropriées via un compte de service Google Cloud.
+La NetApp Console a besoin des autorisations appropriées via un compte de service Google Cloud.
 
 
 
 == Configurer un compte de service
 
-Effectuez les tâches suivantes pour que la console NetApp puisse accéder à votre projet Google Cloud :
+Effectuez les tâches suivantes pour que la NetApp Console puisse accéder à votre projet Google Cloud :
 
 * Si vous n’avez pas encore de compte de service existant, créez-en un nouveau.
 * Ajoutez le membre du compte de service à votre projet et attribuez-lui des rôles spécifiques (autorisations).

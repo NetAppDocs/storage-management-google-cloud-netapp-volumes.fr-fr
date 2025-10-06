@@ -3,15 +3,15 @@ indexpage:
   title: Documentation de Google Cloud NetApp Volumes
   summary: Google Cloud NetApp Volumes permet aux entreprises de migrer et d'exécuter
     leurs applications critiques, gourmandes en performances et sensibles à la latence,
-    dans Google sans avoir besoin de refactoriser pour le cloud.  Cette documentation
+    dans Google sans avoir besoin de les refactoriser pour le cloud.  Cette documentation
     décrit comment configurer et gérer les Google Cloud NetApp Volumes à l'aide de
-    la console NetApp .
+    la NetApp Console.
   keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console
   lead: Google Cloud NetApp Volumes permet aux entreprises de migrer et d'exécuter
     leurs applications critiques, gourmandes en performances et sensibles à la latence,
-    dans Google sans avoir besoin de refactoriser pour le cloud.  Cette documentation
+    dans Google sans avoir besoin de les refactoriser pour le cloud.  Cette documentation
     décrit comment configurer et gérer les Google Cloud NetApp Volumes à l'aide de
-    la console NetApp .
+    la NetApp Console.
   tiles:
   - title: Commencer
     links:
@@ -27,7 +27,7 @@ indexpage:
     links:
     - title: Communauté NetApp
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Blog de la console NetApp
+    - title: Blog de la NetApp Console
       url: https://cloud.netapp.com/blog
     - title: Webinaires sur le cloud
       url: https://cloud.netapp.com/events

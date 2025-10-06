@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-working-env.html 
 keywords: remove working environment, delete working environment, remove system, delete system, remove google cloud netapp volumes, remove, delete 
-summary: Vous pouvez supprimer un abonnement Google Cloud NetApp Volumes pour Google Cloud et tous les volumes existants à partir de la console NetApp .  Cette action supprime les Google Cloud NetApp Volumes de la console NetApp .  Il ne supprime pas votre compte ni vos volumes Google Cloud NetApp Volumes .  Vous pouvez rajouter des Google Cloud NetApp Volumes à la console NetApp à tout moment. 
+summary: Vous pouvez supprimer un abonnement Google Cloud NetApp Volumes pour Google Cloud et tous les volumes existants à partir de la NetApp Console.  Cette action supprime les Google Cloud NetApp Volumes de la NetApp Console.  Il ne supprime pas votre compte ni vos volumes Google Cloud NetApp Volumes .  Vous pouvez rajouter des Google Cloud NetApp Volumes à la NetApp Console à tout moment. 
 ---
-= Supprimer les Google Cloud NetApp Volumes de la console NetApp
+= Supprimer les Google Cloud NetApp Volumes de la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,10 +14,10 @@ summary: Vous pouvez supprimer un abonnement Google Cloud NetApp Volumes pour Go
 
 
 [role="lead"]
-Vous pouvez supprimer un abonnement Google Cloud NetApp Volumes et tous les volumes existants à partir de la console NetApp .  Les volumes ne sont pas supprimés, ils sont supprimés de tous les projets dans la console NetApp et peuvent être redécouverts ultérieurement.
+Vous pouvez supprimer un abonnement Google Cloud NetApp Volumes et tous les volumes existants à partir de la NetApp Console.  Les volumes ne sont pas supprimés, ils sont supprimés de tous les projets dans la NetApp Console et peuvent être redécouverts ultérieurement.
 
 
-TIP: Vous ne pouvez pas supprimer les Google Cloud NetApp Volumes de la console NetApp .  Effectuez cette action à l’aide de la console Google Cloud.
+TIP: Vous ne pouvez pas supprimer les Google Cloud NetApp Volumes à partir de la NetApp Console.  Effectuez cette action à l’aide de la console Google Cloud.
 
 .Étapes
 . Ouvrez le système.
