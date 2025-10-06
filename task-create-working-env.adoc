@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task-create-working-env.html 
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, netapp console 
+summary: Ajoutez un système Netapp Volumes pour Google Cloud dans la console NetApp pour afficher et gérer les volumes. 
+---
+= Ajouter un système Google Cloud NetApp Volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Après avoir configuré un compte de service, ajoutez un système Google Cloud NetApp Volumes dans la console NetApp afin de pouvoir afficher vos instances Google Cloud NetApp Volumes .
+
+Les volumes de cloud pour cet abonnement sont affichés dans le système.
+
+
+NOTE: Si vous avez des abonnements et des volumes dans plusieurs projets Google Cloud, vous devez effectuer cette tâche pour chaque projet.
+
+.Avant de commencer
+Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement pour chaque projet :
+
+* Informations d'identification du compte de service (clé privée JSON que vous avez téléchargée)
+* Nom du projet
+
+
+.Étapes
+. Dans le menu de la console NetApp , sélectionnez *Stockage* puis *Gestion*.
+. Sur la page Systèmes, sélectionnez *Ajouter un système* et sélectionnez *Google Cloud Platform*.
+. À côté de * Google Cloud NetApp Volumes*, sélectionnez *Découvrir*.
+. Fournissez des informations sur votre abonnement NetApp Volumes :
++
+.. Entrez le nom du système que vous souhaitez utiliser.
+.. Copiez/collez la clé privée JSON que vous avez téléchargée aux étapes précédentes.
+.. Sélectionnez *Appliquer les informations d'identification*.
+.. Sélectionnez le nom de votre projet Google Cloud.
+.. Sélectionnez la région dans laquelle vous souhaitez créer le système.  La région doit être l’une des régions prises en charge pour Google Cloud NetApp Volumes.
+.. Sélectionnez *Découvrir*.
++
+image:screenshot_create_environment.png["Capture d’écran de l’ajout d’informations d’identification pour un abonnement Google Cloud NetApp Volumes ."]
+
+
+
+
+
+.Résultat
+La console affiche votre système Google Cloud NetApp Volumes .
+
+image:screenshot_gcnv_environment.png["Une capture d'écran du système Google Cloud NetApp Volumes Service."]
+
+.Quelle est la prochaine étape ?
+link:task-manage-volumes.html["Visualisez vos volumes"] .

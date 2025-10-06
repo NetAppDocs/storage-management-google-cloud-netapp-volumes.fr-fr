@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-manage-volumes.html 
+keywords: google cloud netapp volumes, view volumes 
+summary: Après avoir configuré votre système, vous pouvez afficher vos volumes Google Cloud NetApp . 
+---
+= Gérer les volumes existants
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez afficher vos volumes existants et toutes les actions que vous avez effectuées sur eux.
+
+*Rôle de console NetApp requis* Rôle d'administrateur d'organisation, d'administrateur de dossier ou de projet ou d'administrateur Google Cloud NetApp Volumes . https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d'accès à la console NetApp pour tous les services"^] .
+
+
+
+== Voir un volume
+
+Affichez les détails de vos volumes, tels que leur nom, leur nombre, leur région, leur capacité, leur capacité utilisée et leur pool de stockage.
+
+.Étapes
+. Cliquez sur *Entrer dans le système* pour ouvrir le système.
+. Pour afficher un volume spécifique dans le tableau, sélectionnezimage:icon_search.png["Une icône avec trois points."] et entrez le nom du volume.
+. Pour afficher les étiquettes associées à un volume, dans la colonne *Étiquettes*, sélectionnez *Afficher*.
+
+
+
+
+== Afficher le journal d'audit
+
+Vous pouvez visualiser toutes les actions effectuées sur les volumes dans la chronologie.
+
+.Étapes
+. En haut à droite, sélectionnez *Paramètres* puis *Chronologie*.
+
+
+.Résultat
+Dans le tableau *Journaux d'audit*, vous pouvez afficher toutes les actions effectuées sur vos volumes.

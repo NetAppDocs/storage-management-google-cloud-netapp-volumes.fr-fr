@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: task-set-up-gcnv.html 
+keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+summary: 'La console NetApp doit avoir accès à l"API Google Cloud NetApp Volumes et aux autorisations appropriées via un compte de service Google Cloud.' 
+---
+= Configurer les Google Cloud NetApp Volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+La console NetApp a besoin des autorisations appropriées via un compte de service Google Cloud.
+
+
+
+== Configurer un compte de service
+
+Effectuez les tâches suivantes pour que la console NetApp puisse accéder à votre projet Google Cloud :
+
+* Si vous n’avez pas encore de compte de service existant, créez-en un nouveau.
+* Ajoutez le membre du compte de service à votre projet et attribuez-lui des rôles spécifiques (autorisations).
+* Créez et téléchargez une paire de clés pour le compte de service utilisé pour s'authentifier auprès de Google.
+
+
+.Étapes
+. Dans la console Google Cloud, https://console.cloud.google.com/iam-admin/serviceaccounts["aller à la page Comptes de service"^] .
+. Cliquez sur *Sélectionner un projet*, choisissez votre projet et cliquez sur *Ouvrir*.
+. (Facultatif) Pour créer un compte de service, procédez comme suit :
++
+.. Cliquez sur *Créer un compte de service*.
+.. Saisissez le nom du compte de service (nom d’affichage convivial) et la description.
++
+La console Google Cloud génère un ID de compte de service basé sur ce nom.  Modifiez l'ID si nécessaire - vous ne pourrez pas modifier l'ID ultérieurement.
+
+.. Pour définir les contrôles d’accès maintenant, cliquez sur *Créer* puis sur *TERMINÉ* en bas de la page et passez à l’étape suivante.
+
+
+. Depuis la page _IAM_, cliquez sur *Ajouter* et remplissez les champs de la page _Ajouter des membres_ :
++
+.. Dans le champ Nouveaux membres, saisissez l’ID complet du compte de service.
++
+Par exemple : \user1-service-account-gcnv@project1.iam.gserviceaccount.com
+
+.. Ajoutez l’un de ces rôles :
++
+*** _Administrateur Google Cloud NetApp Volumes_ OU
+*** _Visionneuse de volumes Google Cloud NetApp
+
+
+.. Cliquez sur *Enregistrer*.
+
+
+. Cliquez sur le nom du compte de service, puis sur la page _Détails du compte de service_, cliquez sur *Ajouter une clé*, puis sur *Créer une nouvelle clé*.
+. Sélectionnez *JSON* comme type de clé et cliquez sur *Créer*.
++
+En cliquant sur *Créer*, votre nouvelle paire de clés publique/privée est générée et téléchargée sur votre système.  Il sert de seule copie de la clé privée.  Stockez ce fichier en toute sécurité car il peut être utilisé pour vous authentifier en tant que votre compte de service.
+
+
+
+Pour connaître les étapes détaillées, reportez-vous à la documentation de Google Cloud :
+
+* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Rôles et autorisations de Google Cloud NetApp Volumes"^]
+* link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["Création et gestion des comptes de service"^]
+* link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["Accorder, modifier et révoquer l'accès aux ressources"^]
+* link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["Création et gestion des clés de compte de service"^]
+
