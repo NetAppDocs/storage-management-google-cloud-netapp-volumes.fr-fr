@@ -16,18 +16,18 @@ summary: 'La NetApp Console doit avoir accès à l"API Google Cloud NetApp Volum
 [role="lead"]
 La NetApp Console a besoin des autorisations appropriées via un compte de service Google Cloud.
 
-
-
-== Configurer un compte de service
-
-Effectuez les tâches suivantes pour que la NetApp Console puisse accéder à votre projet Google Cloud :
+Effectuez les tâches suivantes pour que la NetApp Console puisse accéder à votre projet Google Cloud.
 
 * Si vous n’avez pas encore de compte de service existant, créez-en un nouveau.
 * Ajoutez le membre du compte de service à votre projet et attribuez-lui des rôles spécifiques (autorisations).
 * Créez et téléchargez une paire de clés pour le compte de service utilisé pour s'authentifier auprès de Google.
+* Accordez le rôle IAM dans le projet partagé.
 
 
-.Étapes
+
+
+== Configurer un compte de service
+
 . Dans la console Google Cloud, https://console.cloud.google.com/iam-admin/serviceaccounts["aller à la page Comptes de service"^] .
 . Cliquez sur *Sélectionner un projet*, choisissez votre projet et cliquez sur *Ouvrir*.
 . (Facultatif) Pour créer un compte de service, procédez comme suit :
@@ -40,7 +40,27 @@ La console Google Cloud génère un ID de compte de service basé sur ce nom.  M
 .. Pour définir les contrôles d’accès maintenant, cliquez sur *Créer* puis sur *TERMINÉ* en bas de la page et passez à l’étape suivante.
 
 
-. Depuis la page _IAM_, cliquez sur *Ajouter* et remplissez les champs de la page _Ajouter des membres_ :
+
+
+
+
+== Créer et télécharger une paire de clés
+
+. Dans le https://console.cloud.google.com/iam-admin/serviceaccounts["Page des comptes de service"^] , recherchez et cliquez sur le nom du compte de service.
+. Depuis la page _Détails du compte de service_, cliquez sur *Ajouter une clé* puis sur *Créer une nouvelle clé*.
+. Sélectionnez *JSON* comme type de clé et cliquez sur *Créer*.
++
+En cliquant sur *Créer*, votre nouvelle paire de clés publique/privée est générée et téléchargée sur votre système.  Il sert de seule copie de la clé privée.  Stockez ce fichier en toute sécurité car il peut être utilisé pour vous authentifier en tant que votre compte de service.
+
+
+
+
+
+== Ajouter le membre du compte de service
+
+. Connectez-vous à https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"] .
+. Sélectionnez *Administration* puis *Identité et accès*.
+. Cliquez sur *Ajouter* et remplissez les champs de la page _Ajouter des membres_ :
 +
 .. Dans le champ Nouveaux membres, saisissez l’ID complet du compte de service.
 +
@@ -55,11 +75,19 @@ Par exemple : \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 .. Cliquez sur *Enregistrer*.
 
 
-. Cliquez sur le nom du compte de service, puis sur la page _Détails du compte de service_, cliquez sur *Ajouter une clé*, puis sur *Créer une nouvelle clé*.
-. Sélectionnez *JSON* comme type de clé et cliquez sur *Créer*.
-+
-En cliquant sur *Créer*, votre nouvelle paire de clés publique/privée est générée et téléchargée sur votre système.  Il sert de seule copie de la clé privée.  Stockez ce fichier en toute sécurité car il peut être utilisé pour vous authentifier en tant que votre compte de service.
 
+
+
+
+== VPC partagé
+
+Dans chaque projet GCP supplémentaire qui utilisera le compte de service, procédez comme suit :
+
+. Dans la page _IAM_, sélectionnez le projet hôte VPC partagé dans le menu déroulant du projet.
+. Cliquez sur *Ajouter un principal*.
+. Dans le champ Nouveaux principaux, saisissez l’adresse e-mail de votre compte de service.
+. Dans la liste déroulante Sélectionner un rôle, choisissez le rôle d’administrateur Google Cloud NetApp Volumes .
+. Cliquez sur *Enregistrer*.
 
 
 Pour connaître les étapes détaillées, reportez-vous à la documentation de Google Cloud :

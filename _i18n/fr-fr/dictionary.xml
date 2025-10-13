@@ -162,7 +162,6 @@
   <block id="9038e7cfcfe9bb9df9afd31371070be8" category="doc">Gérer les volumes existants</block>
   <block id="182a9bef86de098b538c3c82dd415b3d" category="paragraph">Vous pouvez afficher vos volumes existants et toutes les actions que vous avez effectuées sur eux.</block>
   <block id="a5999c1155de9850d34ba60075be7171" category="inline-link">En savoir plus sur les rôles d'accès à la NetApp Console pour tous les services</block>
-  <block id="4c547288282861f0d4c993684f95504c" category="paragraph">*Rôle de NetApp Console requis* Rôle d'administrateur d'organisation, d'administrateur de dossier ou de projet ou d'administrateur Google Cloud NetApp Volumes .<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> .</block>
   <block id="6b3c1595afc04f7a21a3249b677c0c9b" category="section-title">Voir un volume</block>
   <block id="d8b95942b7e9bb5d3cc343df186da406" category="paragraph">Affichez les détails de vos volumes, tels que leur nom, leur nombre, leur région, leur capacité, leur capacité utilisée et leur pool de stockage.</block>
   <block id="59954bf959ef5a94987a3d2e294a0520" category="list-text">Cliquez sur *Entrer dans le système* pour ouvrir le système.</block>
@@ -193,7 +192,6 @@
   <block id="19e4ef4e4ed4623b5e0397bb68bc60c0" category="summary">La NetApp Console doit avoir accès à l'API Google Cloud NetApp Volumes et aux autorisations appropriées via un compte de service Google Cloud.</block>
   <block id="f0eefed66af669fe08a145bb3c570ac3" category="paragraph">La NetApp Console a besoin des autorisations appropriées via un compte de service Google Cloud.</block>
   <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">Configurer un compte de service</block>
-  <block id="cac1d4d8c6af633e329ef9d4562e30ce" category="paragraph">Effectuez les tâches suivantes pour que la NetApp Console puisse accéder à votre projet Google Cloud :</block>
   <block id="2029481d0277679de049fed89280e080" category="list-text">Si vous n’avez pas encore de compte de service existant, créez-en un nouveau.</block>
   <block id="6e894315b1b31d63ff57c4e16a459889" category="list-text">Ajoutez le membre du compte de service à votre projet et attribuez-lui des rôles spécifiques (autorisations).</block>
   <block id="4c32d215a32f06bbc02ceaeed3828a5b" category="list-text">Créez et téléchargez une paire de clés pour le compte de service utilisé pour s'authentifier auprès de Google.</block>
@@ -205,14 +203,12 @@
   <block id="81c36eb6a7aa6110855ae09fd80381ab" category="list-text">Saisissez le nom du compte de service (nom d’affichage convivial) et la description.</block>
   <block id="e213f32b3b55da902e01d8f4052863a7" category="paragraph">La console Google Cloud génère un ID de compte de service basé sur ce nom.  Modifiez l'ID si nécessaire - vous ne pourrez pas modifier l'ID ultérieurement.</block>
   <block id="8971b16610cb4efa4b6c83e3ad176094" category="list-text">Pour définir les contrôles d’accès maintenant, cliquez sur *Créer* puis sur *TERMINÉ* en bas de la page et passez à l’étape suivante.</block>
-  <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">Depuis la page _IAM_, cliquez sur *Ajouter* et remplissez les champs de la page _Ajouter des membres_ :</block>
   <block id="8d549e601fd570fd51b0bddb07a08462" category="list-text">Dans le champ Nouveaux membres, saisissez l’ID complet du compte de service.</block>
   <block id="1d172c52399b8bfd31a6c902f515b82d" category="paragraph">Par exemple : \user1-service-account-gcnv@project1.iam.gserviceaccount.com</block>
   <block id="0a2be9e155b7a35429d8207201437a43" category="list-text">Ajoutez l’un de ces rôles :</block>
   <block id="af76aae9134ddcda5d6f5f3c80e43816" category="list-text">_Administrateur Google Cloud NetApp Volumes_ OU</block>
   <block id="583f7e9208c61bd50e0d1e4d972cecda" category="list-text">_Visionneuse de volumes Google Cloud NetApp</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">Cliquez sur *Enregistrer*.</block>
-  <block id="4273d1ae75f72b44df538007b73ace1f" category="list-text">Cliquez sur le nom du compte de service, puis sur la page _Détails du compte de service_, cliquez sur *Ajouter une clé*, puis sur *Créer une nouvelle clé*.</block>
   <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">Sélectionnez *JSON* comme type de clé et cliquez sur *Créer*.</block>
   <block id="ef17d662e8cfc44a88102effe9136080" category="paragraph">En cliquant sur *Créer*, votre nouvelle paire de clés publique/privée est générée et téléchargée sur votre système.  Il sert de seule copie de la clé privée.  Stockez ce fichier en toute sécurité car il peut être utilisé pour vous authentifier en tant que votre compte de service.</block>
   <block id="0eff7de92af8c65ac32bf20be9393a92" category="paragraph">Pour connaître les étapes détaillées, reportez-vous à la documentation de Google Cloud :</block>
@@ -306,11 +302,29 @@
   <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">Gérer les volumes</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs et communauté</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Communauté NetApp</block>
-  <block id="77ca003bb7fe21bd663468a378f17879" category="sidebar">Blog de la NetApp Console</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinaires sur le cloud</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notes de version</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Quoi de neuf</block>
   <block id="40b96cc305f26bed96812c2920065f5d" category="sidebar">Configurer Google Cloud</block>
   <block id="f6c5aff43e91755ba26b1cc527f1f13e" category="sidebar">Supprimer les Google Cloud NetApp Volumes</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et soutien</block>
+  <block id="e9f08d0e191bafa455f6b22b7db9fb1c" category="admonition">Pour commencer à travailler avec Google Cloud NetApp Volumes, vous devez disposer des autorisations et des rôles appropriés.  Les rôles requis dans la NetApp Console sont : administrateur d’organisation, administrateur de dossier ou de projet ou administrateur Google Cloud NetApp Volumes .<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> .</block>
+  <block id="4aa58a21c5f509f1480d288c069c6836" category="paragraph">*Rôle de NetApp Console requis* Administrateur d'organisation, administrateur de dossier ou de projet ou rôle d'administrateur Google Cloud NetApp Volumes .<block ref="8d054a08e0e901ba9c326f172eb3627b" category="inline-link-rx"></block> .</block>
+  <block id="061e2fc87acc098c8f7a940bbb44fb2a" category="paragraph">Effectuez les tâches suivantes pour que la NetApp Console puisse accéder à votre projet Google Cloud.</block>
+  <block id="913de1bf08a6316fa527cd3eea7e91ef" category="list-text">Accordez le rôle IAM dans le projet partagé.</block>
+  <block id="e4815c1b80eceb906b33141a218966a0" category="section-title">Créer et télécharger une paire de clés</block>
+  <block id="28904cb42bf4f50b658b2d3fcb1791df" category="inline-link">Page des comptes de service</block>
+  <block id="ebad738732fc3bf48a983db72670516d" category="list-text">Dans le<block ref="0acf396ae14ce1f1496a05bca831b995" category="inline-link-rx"></block> , recherchez et cliquez sur le nom du compte de service.</block>
+  <block id="1a74f210e51d93b2654334a34b9ff18b" category="list-text">Depuis la page _Détails du compte de service_, cliquez sur *Ajouter une clé* puis sur *Créer une nouvelle clé*.</block>
+  <block id="116e54786f44ecd0177dd2b114e4d828" category="section-title">Ajouter le membre du compte de service</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="inline-link">NetApp Console</block>
+  <block id="2398bf06d1524badd56f205ff705b45f" category="list-text">Connectez-vous à<block ref="3d80102badbb10aca6cf846714f51e56" category="inline-link-rx"></block> .</block>
+  <block id="32b6c123fa99d96b6a9c161ccb30c98d" category="list-text">Sélectionnez *Administration* puis *Identité et accès*.</block>
+  <block id="9a0dae9ee4a6a41ebb9c54ea814c5625" category="list-text">Cliquez sur *Ajouter* et remplissez les champs de la page _Ajouter des membres_ :</block>
+  <block id="b23792ea5534855a59329a6f9910a2bb" category="section-title">VPC partagé</block>
+  <block id="bc469fcc20be5428ba31a5fd135dde8c" category="paragraph">Dans chaque projet GCP supplémentaire qui utilisera le compte de service, procédez comme suit :</block>
+  <block id="d4f2a874cc586f639aad0321d236f3f1" category="list-text">Dans la page _IAM_, sélectionnez le projet hôte VPC partagé dans le menu déroulant du projet.</block>
+  <block id="5080561aad5ebf08cf55792d34a54478" category="list-text">Cliquez sur *Ajouter un principal*.</block>
+  <block id="46e1e93f6914b7f839eb907c33be43d8" category="list-text">Dans le champ Nouveaux principaux, saisissez l’adresse e-mail de votre compte de service.</block>
+  <block id="fb913d100c319ea641fe10be8ad12e03" category="list-text">Dans la liste déroulante Sélectionner un rôle, choisissez le rôle d’administrateur Google Cloud NetApp Volumes .</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
 </blocks>
