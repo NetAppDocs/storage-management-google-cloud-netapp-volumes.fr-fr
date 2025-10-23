@@ -21,7 +21,7 @@ NetApp Volumes permet d'accélérer les délais de déploiement, de gérer vos c
 
 NOTE: Pour commencer à travailler avec Google Cloud NetApp Volumes, vous devez disposer des autorisations appropriées et du rôle d'administrateur Google Cloud NetApp Volumes ou de visualiseur Google Cloud NetApp qui vous est attribué. https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d'accès à la NetApp Console pour tous les services"^].
 
-+ image:role_gcnv.png["Une capture d’écran du rôle Google Cloud NetApp Volumes ."]
+image:role_gcnv.png["Une capture d’écran du rôle Google Cloud NetApp Volumes ."]
 
 
 
