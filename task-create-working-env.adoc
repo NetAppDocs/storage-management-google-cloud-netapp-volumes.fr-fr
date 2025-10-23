@@ -40,9 +40,6 @@ Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement p
 .. Sélectionnez le nom de votre projet Google Cloud.
 .. Sélectionnez la région dans laquelle vous souhaitez créer le système.  La région doit être l’une des régions prises en charge pour Google Cloud NetApp Volumes.
 .. Sélectionnez *Découvrir*.
-+
-image:screenshot_create_environment.png["Capture d’écran de l’ajout d’informations d’identification pour un abonnement Google Cloud NetApp Volumes ."]
-
 
 
 
