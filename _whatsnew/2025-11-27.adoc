@@ -1,0 +1,11 @@
+= Modifications des identifiants Google Cloud Platform
+:allow-uri-read: 
+
+
+
+
+=== Modifications des identifiants Google Cloud Platform
+
+À mesure que les clients configurent et autorisent davantage de systèmes Google Cloud NetApp Volumes , la gestion des identifiants a évolué.
+
+Les informations d'identification des systèmes NetApp Volumes sont désormais stockées sur un serveur cloud Google, tel que le service Cloud Key Management ou un service similaire, et les informations d'identification d'emprunt d'identité du compte de service sont utilisées lors de la création d'un nouveau système.

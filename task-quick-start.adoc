@@ -20,6 +20,10 @@ Commencez à utiliser Google Cloud NetApp Volumes en configurant Google Cloud, p
 [role="quick-margin-para"]
 Depuis Google, créez un compte de service.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"] link:task-create-working-env.html["Ajouter un système"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"] link:task-add-roles.html["Attribuer les rôles"]
+[role="quick-margin-para"]
+Depuis la NetApp Console, attribuez les rôles appropriés aux membres.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Trois"] link:task-create-working-env.html["Ajouter un système"]
 [role="quick-margin-para"]
 Depuis la NetApp Console, cliquez sur *Ajouter un système*, puis sur *Google Cloud Platform*, puis sur * Google Cloud NetApp Volumes*, puis sur *Découvrir*.  Fournissez les détails sur le compte de service et le projet Google Cloud.

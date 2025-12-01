@@ -16,7 +16,7 @@ summary: Après avoir configuré votre système, vous pouvez afficher vos volume
 [role="lead"]
 Vous pouvez afficher vos volumes existants et toutes les actions que vous avez effectuées sur eux.
 
-*Rôle de NetApp Console requis* Administrateur d'organisation, administrateur de dossier ou de projet ou rôle d'administrateur Google Cloud NetApp Volumes . https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d'accès à la NetApp Console pour tous les services"^] .
+*Rôle requis dans la NetApp Console * Administrateur Google Cloud NetApp Volumes ou rôle de visionneur Google Cloud NetApp Volumes . https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d'accès à la NetApp Console pour tous les services"^] .
 
 
 
