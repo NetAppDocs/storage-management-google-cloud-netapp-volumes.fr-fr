@@ -35,7 +35,7 @@ Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement p
 . Fournissez des informations sur votre abonnement NetApp Volumes :
 +
 .. Entrez le nom du système que vous souhaitez utiliser.
-.. Collez l'adresse e-mail du compte de service Google associé : credentials-sa@wf-production-netapp.iam.gserviceaccount.com.
+.. Collez l'adresse e-mail du compte de service Google associé. Pour plus de détails, voirlink:task-set-up-gcnv.html["Configurer un compte de service"] .
 .. Sélectionnez *Appliquer les informations d'identification* pour récupérer le nom du projet et la région.
 .. Dans *Nom du projet*, sélectionnez le nom de votre projet Google Cloud.
 .. Dans *Région*, sélectionnez la région dans laquelle vous souhaitez créer le système. La région doit être l’une des régions prises en charge pour Google Cloud NetApp Volumes.

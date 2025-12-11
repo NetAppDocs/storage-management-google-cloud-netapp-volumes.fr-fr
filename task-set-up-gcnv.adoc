@@ -40,6 +40,9 @@ La console Google Cloud génère un ID de compte de service basé sur ce nom.  M
 .. Dans la liste des rôles, sélectionnez le rôle * administrateur Google Cloud NetApp Volumes * ou * visionneuse Google Cloud NetApp *.
 .. Sélectionnez *Continuer*.
 .. Accordez un accès par usurpation d'identité à ce compte de service : credentials-sa@wf-production-netapp.iam.gserviceaccount.com. Pour plus de détails, voir https://cloud.google.com/iam/docs/create-short-lived-credentials-direct#sa-credentials-jwt["Créer un jeton Web JSON (JWT) auto-signé"^] .
++
+Le compte de service appartenant à NetApp est utilisé pour demander un jeton d'accès temporaire qui vous permet d'agir en tant que ce compte de service sans avoir besoin d'accéder à sa clé privée.
+
 .. Cliquez sur *TERMINÉ* en bas de la page, puis passez à l'étape suivante.
 
 
