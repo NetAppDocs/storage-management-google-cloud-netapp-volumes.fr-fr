@@ -6,7 +6,7 @@ indexpage:
     dans Google sans avoir besoin de les refactoriser pour le cloud.  Cette documentation
     décrit comment configurer et gérer les Google Cloud NetApp Volumes à l'aide de
     la NetApp Console.
-  keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console
+  keywords: Google Cloud NetApp Volumes, BlueXP, NetApp Console, GCNV.
   lead: Google Cloud NetApp Volumes permet aux entreprises de migrer et d'exécuter
     leurs applications critiques, gourmandes en performances et sensibles à la latence,
     dans Google sans avoir besoin de les refactoriser pour le cloud.  Cette documentation
