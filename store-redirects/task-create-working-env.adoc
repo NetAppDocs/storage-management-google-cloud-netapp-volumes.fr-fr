@@ -2,50 +2,7 @@
 permalink: task-create-working-env.html 
 redirect: storage-management-google-cloud-netapp-volumes/task-create-system.html 
 ---
-= Ajouter un système Google Cloud NetApp Volumes
-:hardbreaks:
+= 
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
 
-[role="lead"]
-Après avoir configuré un compte de service, ajoutez un système Google Cloud NetApp Volumes dans la NetApp Console afin de pouvoir afficher vos instances Google Cloud NetApp Volumes .
-
-Les volumes de cloud pour cet abonnement sont affichés dans le système.
-
-
-NOTE: Si vous avez des abonnements et des volumes dans plusieurs projets Google Cloud, vous devez effectuer cette tâche pour chaque projet.
-
-.Avant de commencer
-Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement pour chaque projet :
-
-* adresse e-mail du compte de service Google
-* Nom du projet
-
-
-.Étapes
-. Dans le menu de la NetApp Console , sélectionnez *Stockage* puis *Gestion*.
-. Sur la page Systèmes, sélectionnez *Ajouter un système* et sélectionnez *Google Cloud Platform*.
-. À côté de * Google Cloud NetApp Volumes*, sélectionnez *Découvrir*.
-. Fournissez des informations sur votre abonnement NetApp Volumes :
-+
-.. Entrez le nom du système que vous souhaitez utiliser.
-.. Collez l'adresse e-mail du compte de service Google associé. Pour plus de détails, voirlink:task-set-up-gcnv.html["Configurer un compte de service"] .
-.. Sélectionnez *Appliquer les informations d'identification* pour récupérer le nom du projet et la région.
-.. Dans *Nom du projet*, sélectionnez le nom de votre projet Google Cloud.
-.. Dans *Région*, sélectionnez la région dans laquelle vous souhaitez créer le système. La région doit être l’une des régions prises en charge pour Google Cloud NetApp Volumes.
-.. Sélectionnez *Découvrir*.
-
-
-
-
-.Résultat
-La console affiche votre système Google Cloud NetApp Volumes .
-
-image:screenshot_gcnv_environment.png["Une capture d'écran du système Google Cloud NetApp Volumes Service."]
-
-.Quelle est la prochaine étape ?
-link:task-manage-volumes.html["Visualisez vos volumes"] .

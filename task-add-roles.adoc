@@ -46,4 +46,4 @@ Si vous sélectionnez un dossier, le membre dispose des autorisations nécessair
 
 
 .Quelle est la prochaine étape ?
-link:task-create-working-env.html["Ajouter un système Google Cloud NetApp Volumes"].
+link:task-create-system.html["Ajouter un système Google Cloud NetApp Volumes"].

@@ -318,7 +318,6 @@
   <block id="68b5a483d6fcf76e4c38e6c4a401ef56" category="list-text">_Visionneuse de volumes NetApp pour Google Cloud_</block>
   <block id="75a4a42dcdb6ed59e56039807b8e36fe" category="list-text">Ajouter un rôle : Si vous souhaitez donner accès à des dossiers ou projets supplémentaires au sein de votre organisation, sélectionnez *Ajouter un rôle*, spécifiez un autre dossier, projet ou catégorie de rôle, puis sélectionnez une catégorie de rôle et un rôle correspondant.</block>
   <block id="a09853f10b1e18c9e2f541f7e1763305" category="list-text">Sélectionnez *Ajouter de nouveaux rôles*.</block>
-  <block id="24a2cf89a7e8654a8dd82b3e847a2f3f" category="paragraph"><block ref="353eff4e723ce60125e1af61cf4ff726" category="inline-link-macro-rx"></block>.</block>
   <block id="ab1dab4c743d79632ef6d8713763e8d2" category="list-text">adresse e-mail du compte de service Google</block>
   <block id="53b4170efa88b9e39c22f67a2c5c13da" category="list-text">Sélectionnez *Appliquer les informations d'identification* pour récupérer le nom du projet et la région.</block>
   <block id="7de846f0f4d481f8d5514f7cd985147d" category="list-text">Dans *Nom du projet*, sélectionnez le nom de votre projet Google Cloud.</block>
@@ -328,7 +327,6 @@
   <block id="202fff1a22ad6746f62f817c50162005" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="7636ea90210cd657bcc56955b4579566" category="inline-link-macro-rx"></block></block>
   <block id="aaea90d2749395beb16f5340fe5cc964" category="paragraph">Depuis la NetApp Console, attribuez les rôles appropriés aux membres.</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">Trois</block>
-  <block id="6d60931e1d27fdf57f2023f84b071c1f" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="a2c0cfbb3ea0086835b60f39a97a2a3a" category="inline-link-macro-rx"></block></block>
   <block id="119cf90c9716f71114dbe3b9e13911b6" category="list-text">Accorder l'accès pour usurpation d'identité.</block>
   <block id="427af8bd46f9b056f4a0a09ce41c9a34" category="list-text">Pour créer un compte de service, procédez comme suit :</block>
   <block id="1483d48ab7fa569ffd416726e76ecf2d" category="list-text">Cliquez sur *Créer et continuer*.</block>
@@ -348,4 +346,6 @@
   <block id="8372655369d67acc7142b2e8d34f9af7" category="sidebar">Supprimer les volumes</block>
   <block id="5b20dcb4d6ead9fcf4ad79a3f32c603e" category="list-text">Collez l'adresse e-mail du compte de service Google associé. Pour plus de détails, voir<block ref="2a10bb8ea1c6c9896523c5c7efdb9ddd" category="inline-link-macro-rx"></block> .</block>
   <block id="063d962f8b06a3e8ff542497811b0109" category="paragraph">Le compte de service appartenant à NetApp est utilisé pour demander un jeton d'accès temporaire qui vous permet d'agir en tant que ce compte de service sans avoir besoin d'accéder à sa clé privée.</block>
+  <block id="ef9cb6cefb83593bb2298c3273f71497" category="paragraph"><block ref="b07a2136d7ec74e37b5d674038989f9e" category="inline-link-macro-rx"></block>.</block>
+  <block id="e2b9b963de5a574643448d4341ba095d" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="f17c135087ba7331aa786fe747b034f4" category="inline-link-macro-rx"></block></block>
 </blocks>
