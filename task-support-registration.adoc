@@ -89,7 +89,7 @@ Si vous êtes nouveau sur NetApp et que vous n’avez pas de compte NSS, suivez 
 . Dans le coin supérieur droit de la console, sélectionnez l’icône Aide, puis sélectionnez *Support*.
 . Recherchez le numéro de série de votre identifiant de compte sur la page d'inscription au support.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["Une capture d'écran du menu Aide où Support est la première option répertoriée"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png["Une capture d'écran du menu Aide où Support est la première option répertoriée"]
 
 . Accéder à https://register.netapp.com["Site d'inscription au support de NetApp"^] et sélectionnez *Je ne suis pas un client NetApp enregistré*.
 . Remplissez les champs obligatoires (ceux avec des astérisques rouges).
@@ -143,7 +143,7 @@ Ces informations d’identification NSS sont associées à votre ID de compte de
 .Étapes
 . Dans le coin supérieur droit de la console, sélectionnez l’icône Aide, puis sélectionnez *Support*.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["Une capture d'écran du menu Aide où Support est la première option répertoriée"]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png["Une capture d'écran du menu Aide où Support est la première option répertoriée"]
 
 . Sélectionnez *Gestion NSS > Ajouter un compte NSS*.
 . Lorsque vous y êtes invité, sélectionnez *Continuer* pour être redirigé vers une page de connexion Microsoft.
@@ -168,9 +168,9 @@ Il en va de même si vous disposez de comptes NSS préexistants au niveau client
 
 ** Une fois la connexion réussie, NetApp stockera le nom d'utilisateur NSS.
 +
-Il s’agit d’un identifiant généré par le système qui correspond à votre e-mail. Sur la page *Gestion NSS*, vous pouvez afficher votre e-mail à partir duimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Une icône de trois points horizontaux"] menu.
+Il s'agit d'un identifiant généré par le système et associé à votre adresse e-mail. Sur la page *Gestion NSS*, vous pouvez consulter votre adresse e-mail depuis le image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Une icône de trois points horizontaux"] menu.
 
-** Si vous avez besoin d'actualiser vos jetons d'identification de connexion, il existe également une option *Mettre à jour les informations d'identification* dans leimage:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["Une icône de trois points horizontaux"] menu.
+** Si vous devez actualiser vos identifiant tokens de connexion, il existe également une option *Mettre à jour les identifiants* dans le menu image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png["Une icône de trois points horizontaux"].
 +
 L'utilisation de cette option vous invite à vous reconnecter. Notez que le jeton de ces comptes expire après 90 jours. Une notification sera publiée pour vous en informer.
 
