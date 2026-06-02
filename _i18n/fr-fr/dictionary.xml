@@ -284,7 +284,6 @@
   <block id="3c031b939f6ec312ee601d021e7a6644" category="inline-link">NetApp Console</block>
   <block id="32b6c123fa99d96b6a9c161ccb30c98d" category="list-text">Sélectionnez *Administration* puis *Identité et accès*.</block>
   <block id="b23792ea5534855a59329a6f9910a2bb" category="section-title">VPC partagé</block>
-  <block id="bc469fcc20be5428ba31a5fd135dde8c" category="paragraph">Dans chaque projet GCP supplémentaire qui utilisera le compte de service, procédez comme suit :</block>
   <block id="d4f2a874cc586f639aad0321d236f3f1" category="list-text">Dans la page _IAM_, sélectionnez le projet hôte VPC partagé dans le menu déroulant du projet.</block>
   <block id="5080561aad5ebf08cf55792d34a54478" category="list-text">Cliquez sur *Ajouter un principal*.</block>
   <block id="46e1e93f6914b7f839eb907c33be43d8" category="list-text">Dans le champ Nouveaux principaux, saisissez l’adresse e-mail de votre compte de service.</block>
@@ -325,7 +324,6 @@
   <block id="119cf90c9716f71114dbe3b9e13911b6" category="list-text">Accorder l'accès pour usurpation d'identité.</block>
   <block id="427af8bd46f9b056f4a0a09ce41c9a34" category="list-text">Pour créer un compte de service, procédez comme suit :</block>
   <block id="1483d48ab7fa569ffd416726e76ecf2d" category="list-text">Cliquez sur *Créer et continuer*.</block>
-  <block id="c8b1bc399230d8dbc9a1deb5accc5450" category="list-text">Dans la liste des rôles, sélectionnez le rôle * administrateur Google Cloud NetApp Volumes * ou * visionneuse Google Cloud NetApp *.</block>
   <block id="136dc09835924029e4299fa28f17233d" category="list-text">Sélectionnez *Continuer*.</block>
   <block id="b1d4def425f4f73f9bb2fa49bbccf78d" category="inline-link">Créer un jeton Web JSON (JWT) auto-signé</block>
   <block id="c371b001e6cd3bcc89774b7969866dc2" category="list-text">Accordez un accès par usurpation d'identité à ce compte de service : credentials-sa@wf-production-netapp.iam.gserviceaccount.com. Pour plus de détails, voir<block ref="71438f0ee4109348e7b9ea2fd1b6bf55" category="inline-link-rx"></block> .</block>
@@ -353,4 +351,8 @@
   <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">Il s'agit d'un identifiant généré par le système et associé à votre adresse e-mail. Sur la page *Gestion NSS*, vous pouvez consulter votre adresse e-mail depuis le <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> menu.</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">Si vous devez actualiser vos identifiant tokens de connexion, il existe également une option *Mettre à jour les identifiants* dans le menu <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="2b5b357227eed641a3bd86d123eb3ac6" category="admonition">Les modifications apportées aux autorisations des projets Google Cloud peuvent prendre quelques minutes avant d'être effectives.</block>
+  <block id="06a757f4492cc64438eda3ca3eb111b2" category="list-text">Dans la liste des rôles, sélectionnez le rôle *Google Cloud NetApp Volumes Admin* ou *Google Cloud NetApp Volumes Viewer*.</block>
+  <block id="34f0896664ad94ea24b488080bc90944" category="admonition">Pour les environnements de test, utilisez <block ref="2bebe1838cee8677133953ee797f4d0a" prefix=" " category="inline-code"></block> au lieu du compte de service de production. Remplacez la valeur du paramètre <block ref="e41d617895cb15aef8465d2dcb67fde1" prefix=" " category="inline-code"></block> dans la commande ci-dessus par <block ref="6b161ca4f09b2b5faab1957b52ed2c19" prefix=" " category="inline-code"></block>.</block>
+  <block id="e2bb3fd2b13dd9ef09db422aee6f7e01" category="paragraph">Dans chaque projet Google Cloud supplémentaire qui utilisera le compte de service, procédez comme suit :</block>
 </blocks>
