@@ -18,10 +18,12 @@ Découvrez les nouveautés concernant la prise en charge de Google Cloud NetApp 
 
 
 
+[[27-november-2025]]
 == 27 novembre 2025
 
 
 
+[[google-cloud-platform-credentials-changes]]
 === Modifications des identifiants Google Cloud Platform
 
 À mesure que les clients configurent et autorisent davantage de systèmes Google Cloud NetApp Volumes , la gestion des identifiants a évolué.
@@ -30,10 +32,12 @@ Les informations d'identification des systèmes NetApp Volumes sont désormais s
 
 
 
+[[06-october-2025]]
 == 06 octobre 2025
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP est désormais NetApp Console
 
 La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
@@ -42,10 +46,12 @@ Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp
 
 
 
+[[21-july-2025]]
 == 21 juillet 2025
 
 
 
+[[support-for-google-cloud-netapp-volumes-in-bluexp]]
 === Prise en charge des Google Cloud NetApp Volumes dans BlueXP
 
 Vous pouvez désormais gérer les Google Cloud NetApp Volumes directement depuis BlueXP:

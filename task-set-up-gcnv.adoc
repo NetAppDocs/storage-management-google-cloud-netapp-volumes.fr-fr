@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
-keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp. netapp console 
+keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp, netapp console 
 summary: 'La NetApp Console doit avoir accès à l"API Google Cloud NetApp Volumes et aux autorisations appropriées via un compte de service Google Cloud.' 
 ---
 = Configurer les Google Cloud NetApp Volumes
@@ -28,6 +28,7 @@ NOTE: Vous pouvez utiliser la console Google Cloud ou l'interface de ligne de co
 
 
 
+[[set-up-a-service-account]]
 == Configurer un compte de service
 
 
@@ -76,6 +77,7 @@ NOTE: Pour les environnements de test, utilisez  `credentials-sa@wf-staging-neta
 
 
 
+[[shared-vpc]]
 == VPC partagé
 
 Dans chaque projet Google Cloud supplémentaire qui utilisera le compte de service, procédez comme suit :
@@ -104,6 +106,7 @@ Pour connaître les étapes détaillées, reportez-vous à la documentation de G
 
 
 
+[[troubleshooting]]
 == Dépannage
 
 Si vous rencontrez une erreur, la politique *iam.disableCrossProjectServiceAccountUsage* pourrait être appliquée.  Pour remédier à cela, procédez comme suit :

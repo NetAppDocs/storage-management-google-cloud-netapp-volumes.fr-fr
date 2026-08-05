@@ -18,6 +18,7 @@ Vous devez attribuer les rôles appropriés aux membres dans la NetApp Console p
 
 
 
+[[assign-roles-to-the-service-account-member]]
 == Attribuer des rôles aux membres du compte de service
 
 . Connectez-vous à https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^] .

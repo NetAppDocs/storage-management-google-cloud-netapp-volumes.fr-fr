@@ -20,6 +20,7 @@ Vous pouvez afficher vos volumes existants et toutes les actions que vous avez e
 
 
 
+[[view-a-volume]]
 == Voir un volume
 
 Affichez les détails de vos volumes, tels que leur nom, leur nombre, leur région, leur capacité, leur capacité utilisée et leur pool de stockage.
@@ -32,6 +33,7 @@ Affichez les détails de vos volumes, tels que leur nom, leur nombre, leur régi
 
 
 
+[[view-the-audit-log]]
 == Afficher le journal d'audit
 
 Vous pouvez visualiser toutes les actions effectuées sur les volumes dans la chronologie.

@@ -4,6 +4,7 @@
 
 
 
+[[google-cloud-platform-credentials-changes]]
 === Modifications des identifiants Google Cloud Platform
 
 À mesure que les clients configurent et autorisent davantage de systèmes Google Cloud NetApp Volumes , la gestion des identifiants a évolué.
