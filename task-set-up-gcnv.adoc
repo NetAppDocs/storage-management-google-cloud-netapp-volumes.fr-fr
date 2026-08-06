@@ -66,10 +66,6 @@ Vous pouvez également accorder un accès par usurpation d'identité à l'aide d
 ----
 gcloud iam service-accounts add-iam-policy-binding <YOUR_SA_EMAIL> --member="serviceAccount:credentials-sa@wf-production-netapp.iam.gserviceaccount.com" --role="roles/iam.serviceAccountTokenCreator" --project=<YOUR_PROJECT_ID>
 ----
-+
-
-NOTE: Pour les environnements de test, utilisez  `credentials-sa@wf-staging-netapp.iam.gserviceaccount.com` au lieu du compte de service de production. Remplacez la valeur du paramètre  `--member` dans la commande ci-dessus par  `serviceAccount:credentials-sa@wf-staging-netapp.iam.gserviceaccount.com`.
-
 .. Cliquez sur *TERMINÉ* en bas de la page, puis passez à l'étape suivante.
 
 
