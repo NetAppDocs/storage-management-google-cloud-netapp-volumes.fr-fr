@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
 summary: Découvrez les nouveautés concernant la prise en charge de Google Cloud NetApp Volumes dans NetApp Console. 
 ---
-= Quoi de neuf
+= Quelles sont les nouveautés de Google Cloud NetApp Volumes
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

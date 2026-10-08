@@ -18,11 +18,11 @@ Vous devez attribuer les rôles appropriés aux membres dans la NetApp Console p
 
 
 
-[[assign-roles-to-the-service-account-member]]
-== Attribuer des rôles aux membres du compte de service
+[[assign-roles-to-netapp-console-users]]
+== Attribuer des rôles aux utilisateurs de NetApp Console
 
 . Connectez-vous à https://docs.netapp.com/us-en/console-setup-admin/task-logging-in.html["NetApp Console"^] .
-. Sélectionnez *Administration* puis *Identité et accès*.
+. Sélectionnez *Administration*, *Identité et accès*, puis *Membres*.
 . Sélectionnez le menu actionsimage:screenshot_gallery_options.gif["Une icône avec trois points."] À côté du membre auquel vous souhaitez attribuer un rôle, sélectionnez *Ajouter un rôle*.
 . Pour ajouter un rôle, suivez les étapes dans la boîte de dialogue :
 +

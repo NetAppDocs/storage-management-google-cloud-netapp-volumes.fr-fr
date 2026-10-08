@@ -22,10 +22,10 @@ Les volumes de cloud pour cet abonnement sont affichés dans le système.
 NOTE: Si vous avez des abonnements et des volumes dans plusieurs projets Google Cloud, vous devez effectuer cette tâche pour chaque projet.
 
 .Avant de commencer
-Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement pour chaque projet :
+Avant d'ajouter un système pour chaque projet, assurez-vous que :
 
-* adresse e-mail du compte de service Google
-* Nom du projet
+* Le compte de service Google Cloud est configuré et ses identifiants sont disponibles dans la NetApp Console. Pour plus de détails, consultez link:task-set-up-gcnv.html["Configurer les Google Cloud NetApp Volumes"].
+* Vous avez le rôle d’administrateur ou de lecteur pour Google Cloud NetApp Volumes dans NetApp Console. Pour plus d’informations, consultez link:task-add-roles.html["Attribuer des rôles à Google Cloud NetApp Volumes"].
 
 
 .Étapes
@@ -35,10 +35,11 @@ Vous devez disposer des informations suivantes lors de l'ajout d'un abonnement p
 . Fournissez des informations sur votre abonnement NetApp Volumes :
 +
 .. Entrez le nom du système que vous souhaitez utiliser.
-.. Collez l'adresse e-mail du compte de service Google associé. Pour plus de détails, voirlink:task-set-up-gcnv.html["Configurer un compte de service"] .
-.. Sélectionnez *Appliquer les informations d'identification* pour récupérer le nom du projet et la région.
-.. Dans *Nom du projet*, sélectionnez le nom de votre projet Google Cloud.
-.. Dans *Région*, sélectionnez la région dans laquelle vous souhaitez créer le système. La région doit être l’une des régions prises en charge pour Google Cloud NetApp Volumes.
+.. Dans la section *Identifiants*, sélectionnez les identifiants Google Cloud NetApp Volumes à utiliser.
++
+Si aucun identifiant n'est répertorié, ajoutez les identifiants Google Cloud NetApp Volumes avant de continuer. La sélection du projet et de la région n'est pas disponible tant que les identifiants ne sont pas disponibles.
+
+.. Dans *Région*, sélectionnez une région prise en charge pour Google Cloud NetApp Volumes.
 .. Sélectionnez *Découvrir*.
 
 

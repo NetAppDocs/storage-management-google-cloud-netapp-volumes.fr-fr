@@ -4,7 +4,7 @@ permalink: task-support-registration.html
 keywords: support registration, register for support, support, nss account, add nss account, 
 summary: 'Avant de pouvoir ouvrir un dossier d"assistance auprès du support technique NetApp , vous devez ajouter un compte de site de support NetApp à la NetApp Console , puis vous inscrire au support.' 
 ---
-= Inscrivez-vous pour obtenir de l'aide
+= Inscrivez-vous pour obtenir une assistance pour Google Cloud NetApp Volumes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

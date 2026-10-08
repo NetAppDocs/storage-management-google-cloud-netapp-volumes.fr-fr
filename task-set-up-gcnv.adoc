@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-set-up-gcnv.html 
-keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, bluexp, netapp console 
+keywords: setup, set up, api, service account, requirements, permissions, google cloud netapp volumes, gcnv, netapp console 
 summary: 'La NetApp Console doit avoir accès à l"API Google Cloud NetApp Volumes et aux autorisations appropriées via un compte de service Google Cloud.' 
 ---
 = Configurer les Google Cloud NetApp Volumes
@@ -44,7 +44,7 @@ NOTE: Les modifications apportées aux autorisations des projets Google Cloud pe
 La console Google Cloud génère un ID de compte de service basé sur ce nom.  Modifiez l'ID si nécessaire - vous ne pourrez pas modifier l'ID ultérieurement.
 
 .. Cliquez sur *Créer et continuer*.
-.. Dans la liste des rôles, sélectionnez le rôle *Google Cloud NetApp Volumes Admin* ou *Google Cloud NetApp Volumes Viewer*.
+.. Dans la liste des rôles, sélectionnez le rôle *Google Cloud NetApp Volumes admin* ou *Google Cloud NetApp Volumes viewer*.
 .. Sélectionnez *Continuer*.
 +
 Vous pouvez également attribuer le rôle à l'aide de l'interface de ligne de commande gcloud :
